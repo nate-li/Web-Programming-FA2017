@@ -1,0 +1,19 @@
+body { font-size: 2em; }
+
+div { color: blue }
+
+#firstdiv { position: absolute; top: 20%; right: 20%; font-size: 2em; }
+
+#fixeddiv { position: fixed; top: 50%; left: 30%; background-color: green; width: 50%; height: 10%;}
+
+.warning { text-decoration: underline; color: red; }
+
+.big { font-size: 2em; color: yellow; }
+
+.green li { color: green; }
+
+#leftBack {position: absolute; width: 50%; height: 100%; background-color: silver; z-index: -1; margin: 0; padding: 0; transition: width 2s}
+#rightBack {position: absolute; width: 50%; height: 100%; left: 50%; background-color: grey; z-index: -1; margin: 0; padding: 0; transition: width 2s, left 2s; }
+
+
+.right: { color: yellow; }
