@@ -1,0 +1,11 @@
+body { font-size: 2em; }
+
+
+.warning { text-decoration: underline; color: red; }
+
+.green { color: green; background-color: black; }
+
+.big { font-size: 2em; }
+
+.underline { text-decoration: underline; }
+
