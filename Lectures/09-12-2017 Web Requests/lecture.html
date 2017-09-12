@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Lecture Web Requests 9/15/2016</title>
+<link rel="stylesheet" type="text/css" href="styles.css"></link>
+<script src="common.js"></script>
+
+<script src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<br/>
+<form>
+	StringValue: <input type="text" id="userInput"/><br/><br/>
+	Index: <input type="text" id="userIndex"/><br/><br/>
+	<input type="button" value="Get" onclick="runGet()" />
+	<input type="button" value="Post" onclick="runPost()" />
+	<input type="button" value="Put" onclick="runPut()" />
+	<input type="button" value="Delete" onclick="runDelete()" />
+	<input type="button" value="Get One" onclick="runGetOne()" />
+</form>
+
+<div id="result"></div>
+<div id="error"></div>
+</body>
+
+</html>
+
