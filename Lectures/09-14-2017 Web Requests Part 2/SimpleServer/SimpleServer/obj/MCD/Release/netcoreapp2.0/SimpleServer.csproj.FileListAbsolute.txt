@@ -1,0 +1,11 @@
+C:\Users\Steven\Documents\GitHub\Web-Programming-FA2017\Lectures\09-12-2017 Web Requests\SimpleServer\SimpleServer\bin\MCD\Release\netcoreapp2.0\SimpleServer.deps.json
+C:\Users\Steven\Documents\GitHub\Web-Programming-FA2017\Lectures\09-12-2017 Web Requests\SimpleServer\SimpleServer\bin\MCD\Release\netcoreapp2.0\SimpleServer.runtimeconfig.json
+C:\Users\Steven\Documents\GitHub\Web-Programming-FA2017\Lectures\09-12-2017 Web Requests\SimpleServer\SimpleServer\bin\MCD\Release\netcoreapp2.0\SimpleServer.runtimeconfig.dev.json
+C:\Users\Steven\Documents\GitHub\Web-Programming-FA2017\Lectures\09-12-2017 Web Requests\SimpleServer\SimpleServer\bin\MCD\Release\netcoreapp2.0\SimpleServer.dll
+C:\Users\Steven\Documents\GitHub\Web-Programming-FA2017\Lectures\09-12-2017 Web Requests\SimpleServer\SimpleServer\bin\MCD\Release\netcoreapp2.0\SimpleServer.pdb
+C:\Users\Steven\Documents\GitHub\Web-Programming-FA2017\Lectures\09-12-2017 Web Requests\SimpleServer\SimpleServer\obj\MCD\Release\netcoreapp2.0\SimpleServer.csprojResolveAssemblyReference.cache
+C:\Users\Steven\Documents\GitHub\Web-Programming-FA2017\Lectures\09-12-2017 Web Requests\SimpleServer\SimpleServer\obj\MCD\Release\netcoreapp2.0\SimpleServer.csproj.CoreCompileInputs.cache
+C:\Users\Steven\Documents\GitHub\Web-Programming-FA2017\Lectures\09-12-2017 Web Requests\SimpleServer\SimpleServer\obj\MCD\Release\netcoreapp2.0\SimpleServer.AssemblyInfoInputs.cache
+C:\Users\Steven\Documents\GitHub\Web-Programming-FA2017\Lectures\09-12-2017 Web Requests\SimpleServer\SimpleServer\obj\MCD\Release\netcoreapp2.0\SimpleServer.AssemblyInfo.cs
+C:\Users\Steven\Documents\GitHub\Web-Programming-FA2017\Lectures\09-12-2017 Web Requests\SimpleServer\SimpleServer\obj\MCD\Release\netcoreapp2.0\SimpleServer.dll
+C:\Users\Steven\Documents\GitHub\Web-Programming-FA2017\Lectures\09-12-2017 Web Requests\SimpleServer\SimpleServer\obj\MCD\Release\netcoreapp2.0\SimpleServer.pdb
