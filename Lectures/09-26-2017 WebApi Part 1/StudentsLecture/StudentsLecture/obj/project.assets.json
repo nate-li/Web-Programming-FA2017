@@ -12542,11 +12542,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Steven\\Documents\\GitHub\\Web-Programming-FA2017\\Lectures\\09-14-2017 Web Requests Part 2\\SimpleServer\\SimpleServer\\SimpleServer.csproj",
-      "projectName": "SimpleServer",
-      "projectPath": "C:\\Users\\Steven\\Documents\\GitHub\\Web-Programming-FA2017\\Lectures\\09-14-2017 Web Requests Part 2\\SimpleServer\\SimpleServer\\SimpleServer.csproj",
+      "projectUniqueName": "C:\\Users\\Steven\\Documents\\GitHub\\Web-Programming-FA2017\\Lectures\\09-26-2017 WebApi Part 1\\StudentsLecture\\StudentsLecture\\StudentsLecture.csproj",
+      "projectName": "StudentsLecture",
+      "projectPath": "C:\\Users\\Steven\\Documents\\GitHub\\Web-Programming-FA2017\\Lectures\\09-26-2017 WebApi Part 1\\StudentsLecture\\StudentsLecture\\StudentsLecture.csproj",
       "packagesPath": "C:\\Users\\Steven\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Steven\\Documents\\GitHub\\Web-Programming-FA2017\\Lectures\\09-14-2017 Web Requests Part 2\\SimpleServer\\SimpleServer\\obj\\",
+      "outputPath": "C:\\Users\\Steven\\Documents\\GitHub\\Web-Programming-FA2017\\Lectures\\09-26-2017 WebApi Part 1\\StudentsLecture\\StudentsLecture\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

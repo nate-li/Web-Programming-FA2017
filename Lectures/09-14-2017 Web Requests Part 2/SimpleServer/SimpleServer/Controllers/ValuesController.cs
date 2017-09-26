@@ -29,11 +29,11 @@ namespace Assignment3_2017.Controllers
         }
 
 		[HttpPost]
-		public IActionResult PostView([FromBody] ValueEntity valueEntity)
+		public ValueEntity PostView([FromBody] ValueEntity valueEntity)
 		{
             values.Add(valueEntity);
 
-			return new JsonResult(valueEntity);
+			return valueEntity;
 		}
 
 		[HttpPut("{id:int}")]
