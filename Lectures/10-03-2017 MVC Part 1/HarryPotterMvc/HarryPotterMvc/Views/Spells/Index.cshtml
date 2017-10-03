@@ -1,0 +1,16 @@
+﻿@model AllSpellsModel
+
+@if (Model.spells.Any()) {
+    <ol>
+    @for (var i = 0; i < Model.spells.Count; i++) {
+        <li>@Model.spells[i].Name</li>
+    }
+   </ol>
+
+}
+
+<form action="/spells/add" method="post">
+
+    <input type="text" name="spell" />
+    <input type="submit" value="Add Spell" />
+</form>
