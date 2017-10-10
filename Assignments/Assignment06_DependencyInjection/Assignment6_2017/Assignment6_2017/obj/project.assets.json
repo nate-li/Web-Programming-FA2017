@@ -12533,7 +12533,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\styackel\\.nuget\\packages\\": {},
+    "C:\\Users\\Steven\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -12542,17 +12542,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\styackel\\OneDrive\\web programming\\assignments\\assignment 6 - dependency injection\\Assignment6_2017\\Assignment6_2017\\Assignment6_2017.csproj",
+      "projectUniqueName": "C:\\Users\\Steven\\Documents\\GitHub\\Web-Programming-FA2017\\Assignments\\Assignment06_DependencyInjection\\Assignment6_2017\\Assignment6_2017\\Assignment6_2017.csproj",
       "projectName": "Assignment6_2017",
-      "projectPath": "C:\\Users\\styackel\\OneDrive\\web programming\\assignments\\assignment 6 - dependency injection\\Assignment6_2017\\Assignment6_2017\\Assignment6_2017.csproj",
-      "packagesPath": "C:\\Users\\styackel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\styackel\\OneDrive\\web programming\\assignments\\assignment 6 - dependency injection\\Assignment6_2017\\Assignment6_2017\\obj\\",
+      "projectPath": "C:\\Users\\Steven\\Documents\\GitHub\\Web-Programming-FA2017\\Assignments\\Assignment06_DependencyInjection\\Assignment6_2017\\Assignment6_2017\\Assignment6_2017.csproj",
+      "packagesPath": "C:\\Users\\Steven\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Steven\\Documents\\GitHub\\Web-Programming-FA2017\\Assignments\\Assignment06_DependencyInjection\\Assignment6_2017\\Assignment6_2017\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\styackel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Steven\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12560,7 +12560,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "netcoreapp2.0": {

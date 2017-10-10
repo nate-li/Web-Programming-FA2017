@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Hobbits.Services;
 
 namespace Hobbits
 {
@@ -24,6 +25,11 @@ namespace Hobbits
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            services.AddSingleton<HobbitDatabase>();
+            services.AddTransient<ILoggingService, LoggingService>();
+            services.AddScoped<IRequestIdGenerator, RequestIdGenerator>();
+            services.AddScoped<DateTimeProvider>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

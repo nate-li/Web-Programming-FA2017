@@ -4,18 +4,27 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Diagnostics;
+using Hobbits.Services;
 
 namespace Assignment3_2017.Controllers
 {
     public class ErrorsController : Controller
     {
+        private ILoggingService loggingService;
+
+        public ErrorsController(ILoggingService loggingService)
+        {
+            this.loggingService = loggingService;
+        }
+
         [Route("/Error")]
         public void Index()
         {
             var feature = HttpContext.Features.Get<IExceptionHandlerFeature>();
             var error = feature?.Error;
 
-            Console.Write(error);
+            this.loggingService.Log(error?.ToString());
+
         }
     }
 }

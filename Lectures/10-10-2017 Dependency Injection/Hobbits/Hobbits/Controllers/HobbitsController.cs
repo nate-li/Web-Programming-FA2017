@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Hobbits.Models;
+using Hobbits.Entities;
 using Hobbits.Services;
 using System.Net;
 
@@ -12,8 +12,12 @@ namespace Hobbits.Controllers
     [Route("api/[controller]")]
     public class HobbitsController : Controller
     {
+        private HobbitDatabase hobbits;
 
-        private static HobbitDatabase hobbits = new HobbitDatabase();
+        public HobbitsController(HobbitDatabase hobbits)
+        {
+            this.hobbits = hobbits;
+        }
 
         [HttpGet("{id}")]
         public HobbitEntity Get(int id)
@@ -32,9 +36,19 @@ namespace Hobbits.Controllers
                     Content = "Check to ensure the structure of your JSON hobbit."
                 };
             }
-            hobbits.Add(hobbit.ToModel());
 
-            return Json(hobbit);
+            if (hobbits.Add(hobbit.ToModel()))
+            {
+                return Json(hobbit);
+
+            } else
+            {
+                return new ContentResult()
+                {
+                    StatusCode = (int)HttpStatusCode.BadRequest,
+                    Content = "Could not add your hobbit"
+                };
+            }
         }
 
         [HttpPut("{id}")]
@@ -48,9 +62,18 @@ namespace Hobbits.Controllers
                     Content = "Check to ensure the structure of your JSON hobbit."
                 };
             }
-            hobbits.Add(hobbit.ToModel(), id);
-
-            return Json(hobbit);
+            if (hobbits.Add(hobbit.ToModel(), id))
+            {
+                return Json(hobbit);
+            }
+            else
+            {
+                return new ContentResult()
+                {
+                    StatusCode = (int)HttpStatusCode.BadRequest,
+                    Content = "Your hobbit index was invalid."
+                };
+            }
         }
 
         [HttpDelete("{id}")]
