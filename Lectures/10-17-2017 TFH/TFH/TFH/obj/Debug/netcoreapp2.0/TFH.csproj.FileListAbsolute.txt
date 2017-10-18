@@ -1,0 +1,8 @@
+C:\Users\Steven\Documents\GitHub\Web-Programming-FA2017\Lectures\10-17-2017 TFH\TFH\TFH\bin\Debug\netcoreapp2.0\TFH.deps.json
+C:\Users\Steven\Documents\GitHub\Web-Programming-FA2017\Lectures\10-17-2017 TFH\TFH\TFH\bin\Debug\netcoreapp2.0\TFH.runtimeconfig.json
+C:\Users\Steven\Documents\GitHub\Web-Programming-FA2017\Lectures\10-17-2017 TFH\TFH\TFH\bin\Debug\netcoreapp2.0\TFH.runtimeconfig.dev.json
+C:\Users\Steven\Documents\GitHub\Web-Programming-FA2017\Lectures\10-17-2017 TFH\TFH\TFH\bin\Debug\netcoreapp2.0\TFH.dll
+C:\Users\Steven\Documents\GitHub\Web-Programming-FA2017\Lectures\10-17-2017 TFH\TFH\TFH\obj\Debug\netcoreapp2.0\TFH.csprojResolveAssemblyReference.cache
+C:\Users\Steven\Documents\GitHub\Web-Programming-FA2017\Lectures\10-17-2017 TFH\TFH\TFH\obj\Debug\netcoreapp2.0\TFH.csproj.CoreCompileInputs.cache
+C:\Users\Steven\Documents\GitHub\Web-Programming-FA2017\Lectures\10-17-2017 TFH\TFH\TFH\obj\Debug\netcoreapp2.0\TFH.AssemblyInfoInputs.cache
+C:\Users\Steven\Documents\GitHub\Web-Programming-FA2017\Lectures\10-17-2017 TFH\TFH\TFH\obj\Debug\netcoreapp2.0\TFH.AssemblyInfo.cs
