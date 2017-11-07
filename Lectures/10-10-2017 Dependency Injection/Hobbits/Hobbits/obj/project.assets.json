@@ -12533,7 +12533,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Steven\\.nuget\\packages\\": {},
+    "C:\\Users\\linat\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -12542,17 +12542,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Steven\\Documents\\GitHub\\Web-Programming-FA2017\\Lectures\\10-10-2017 Dependency Injection\\Hobbits\\Hobbits\\Hobbits.csproj",
+      "projectUniqueName": "C:\\Users\\linat\\Documents\\GitHub\\Web-Programming-FA2017\\Lectures\\10-10-2017 Dependency Injection\\Hobbits\\Hobbits\\Hobbits.csproj",
       "projectName": "Hobbits",
-      "projectPath": "C:\\Users\\Steven\\Documents\\GitHub\\Web-Programming-FA2017\\Lectures\\10-10-2017 Dependency Injection\\Hobbits\\Hobbits\\Hobbits.csproj",
-      "packagesPath": "C:\\Users\\Steven\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Steven\\Documents\\GitHub\\Web-Programming-FA2017\\Lectures\\10-10-2017 Dependency Injection\\Hobbits\\Hobbits\\obj\\",
+      "projectPath": "C:\\Users\\linat\\Documents\\GitHub\\Web-Programming-FA2017\\Lectures\\10-10-2017 Dependency Injection\\Hobbits\\Hobbits\\Hobbits.csproj",
+      "packagesPath": "C:\\Users\\linat\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\linat\\Documents\\GitHub\\Web-Programming-FA2017\\Lectures\\10-10-2017 Dependency Injection\\Hobbits\\Hobbits\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Steven\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\linat\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12560,7 +12560,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
